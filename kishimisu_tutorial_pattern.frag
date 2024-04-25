@@ -24,7 +24,7 @@ void main()
 
     for(float i = 0.0; i < max_iters; i++)
     {
-        uv = fract(uv * 1.5) - 0.5; // I don't completely understand what fract() does
+        uv = fract(uv * 1.5) - 0.5; // fract() returns the decimal part of a number.
         
         // Params
         vec3 a1 = vec3(0.5, 0.5, 0.5);
